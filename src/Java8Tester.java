@@ -125,13 +125,4 @@ public class Java8Tester {
         }
         return min;
     }
-
-    private static int getSum(List numbers){
-        int sum = (int)(numbers.get(0));
-
-        for(int i=1;i < numbers.size();i++){
-            sum += (int)numbers.get(i);
-        }
-        return sum;
-    }
 }
